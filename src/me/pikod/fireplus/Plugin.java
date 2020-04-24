@@ -25,6 +25,7 @@ public class Plugin extends JavaPlugin {
 			pl.getServer().getPluginManager().registerEvents(this, pl);
 		}
 		
+		
 		@EventHandler
 		public void onRedstone(BlockRedstoneEvent event) {
 			if(event.getBlock().getType() == Material.NETHERRACK) {
