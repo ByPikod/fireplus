@@ -1,0 +1,13 @@
+name: FirePlus
+version: 0.1
+description: Openable nether rack fires
+main: me.pikod.fireplus.Plugin
+author: Pikod
+commands:
+    fireplus:
+        aliases: [fp]
+        permission: fireplus.op
+permissions:
+    fireplus.op:
+        description: Main
+        
